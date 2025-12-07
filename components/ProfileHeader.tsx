@@ -14,13 +14,13 @@ import { Translation, Language } from '../types';
 // 1. عکس پروفایل (Profile Picture)
 // مثال: اگر عکس شما در پوشه public با نام 'me.jpg' است، بنویسید: "/me.jpg"
 // یا اگر از ایمپورت استفاده میکنید: import Me from './me.jpg'; و اینجا بنویسید: Me
-const PROFILE_IMAGE_SRC = "https://picsum.photos/400/400?grayscale";
+const PROFILE_IMAGE_SRC = "/1000004635.png";
 
 // 2. عکس لوگو (Brand Logo)
 // اگر میخواهید جای حرف "G" لوگوی خودتان باشد، آدرس آن را در متغیر زیر بنویسید.
 // اگر این متغیر خالی باشد ("")، همان حرف G رنگی نمایش داده میشود.
 // مثال: "/logo.png"
-const BRAND_LOGO_SRC = "https://github.com/giv-data/my-portfolio/blob/main/result_6934673f31b52.png"; 
+const BRAND_LOGO_SRC = "/result_6934673f31b52.png"; 
 
 // =====================================================================
 
