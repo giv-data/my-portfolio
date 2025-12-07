@@ -5,7 +5,11 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      // 🚩 خط جدید اضافه شده برای آدرس پایه در GitHub Pages
+      // 🚩 حذف root: 'public', (زیرا index.tsx در public نیست)
+      // 🚩 تعریف پوشه public به عنوان پوشه محتوای استاتیک
+      publicDir: 'public', 
+      
+      // تنظیم آدرس پایه برای GitHub Pages
       base: '/my-portfolio/', 
 
       server: {
