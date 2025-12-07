@@ -1,0 +1,60 @@
+# پرامپت فارسی روان: نام این فرآیند خودکار
+name: Deploy Vite Project to Pages
+
+on:
+  # این فرآیند را هر بار که کدی به شاخه main ارسال شود اجرا می‌کند
+  push:
+    branches: ["main"] 
+  
+  # امکان اجرای دستی
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  cancel-in-progress: true
+  group: pages
+
+jobs:
+  # ساخت پروژه
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm install
+      - name: Build project
+        # اجرای Build که پوشه dist را می‌سازد
+        run: npm run build
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        with:
+          # پیکربندی برای تشخیص پوشه dist
+          static_site_generator: custom
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # آپلود پوشه نهایی dist
+          path: './dist' 
+          
+  # انتشار پروژه
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
