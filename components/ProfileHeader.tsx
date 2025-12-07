@@ -20,7 +20,7 @@ const PROFILE_IMAGE_SRC = "https://picsum.photos/400/400?grayscale";
 // اگر میخواهید جای حرف "G" لوگوی خودتان باشد، آدرس آن را در متغیر زیر بنویسید.
 // اگر این متغیر خالی باشد ("")، همان حرف G رنگی نمایش داده میشود.
 // مثال: "/logo.png"
-const BRAND_LOGO_SRC = ""; 
+const BRAND_LOGO_SRC = "https://github.com/giv-data/my-portfolio/blob/main/result_6934673f31b52.png"; 
 
 // =====================================================================
 
