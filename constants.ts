@@ -192,7 +192,7 @@ const FA_PERSONALITY = [
 export const TRANSLATIONS: Record<'en' | 'fa', Translation> = {
   en: {
     name: 'Ali Givshadi',
-    role: 'Data Scientist & Developer',
+    role: 'Data Engineer & Tech Lover',
     aboutTitle: 'About Me',
     aboutText: "Hello friends! I'm **Ali Givshadi**, just a simple Computer Engineering student.\nData Engineering is an extremely attractive field for me, and I strive to dive deeper into it as much as possible.\nBesides this, I love helping others grow in this profession. You can follow me on the networks listed in the 'Connect With Me' section.\nIf you have a personal or work-related matter requiring direct contact, please email me—you'll get a reply soon.\nI extremely enjoy teamwork and try to adapt to the team. As I believe in nature, the organism with the most adaptability minimizes its risk of extinction.",
     skillsTitle: 'My Skills',
@@ -221,7 +221,7 @@ export const TRANSLATIONS: Record<'en' | 'fa', Translation> = {
   },
   fa: {
     name: 'علی گیوشادی',
-    role: 'دانشمند داده و توسعه‌دهنده',
+    role: 'مهندس داده و عاشق تکنولوژی',
     aboutTitle: 'درباره من',
     aboutText: "سلام رفقا! من **علی گیوشادی** هستم، یه دانشجوی مهندسی کامیپوتر ساده.\nحوزه مهندسی داده برام حوزه بشدت جذابیه و تمام تلاشم بر اینه هرچقدر بیشتر تا جای ممکن توش عمیق بشم.\nعلاوه بر این دوست دارم به بقیه هم کمک کنم توی این حرفه از آب و گل در بیان. میتونید من رو در شبکه هایی که در بخش ارتباط بامن قرار دادم دنبال کنید.\nاگر موضوع شخصی یا کاری بود که نیاز به ارتباط مستقیم با من داشتین حتما به ایمیل من پیام بدین، بزودی جواب میگیرین.\nاز کار تیمی هم فوق‌العاده لذت میبرم و کلا سعی میکنم سازگار بشم با تیم. چه بسا که معتقدم در طبیعت موجودی که بیشترین سازگاری رو داره میتونه انقراض نسلش رو به حداقل برسونه.",
     skillsTitle: 'مهارت‌های من',

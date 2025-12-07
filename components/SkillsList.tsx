@@ -25,14 +25,14 @@ const getSkillIcon = (name: string) => {
   
   if (lowerName.includes('resume') || lowerName.includes('pdf') || lowerName.includes('رزومه')) return FileDown; // Resume Icon
   if (lowerName.includes('python') || lowerName.includes('code') || lowerName.includes('java')) return Code2;
-  if (lowerName.includes('data') || lowerName.includes('sql') || lowerName.includes('داده')) return Database;
-  if (lowerName.includes('cloud') || lowerName.includes('aws') || lowerName.includes('ابری')) return Cloud;
-  if (lowerName.includes('react') || lowerName.includes('front') || lowerName.includes('فرانت')) return Layout;
-  if (lowerName.includes('back') || lowerName.includes('node') || lowerName.includes('بک')) return Server;
-  if (lowerName.includes('devops') || lowerName.includes('linux') || lowerName.includes('دواپس')) return Terminal;
-  if (lowerName.includes('web') || lowerName.includes('html')) return Globe;
-  if (lowerName.includes('learn') || lowerName.includes('ai') || lowerName.includes('یادگیری')) return BrainCircuitIcon;
-  
+  if (lowerName.includes('SQL') || lowerName.includes('sql') || lowerName.includes('داده')) return Database;
+  // if (lowerName.includes('cloud') || lowerName.includes('aws') || lowerName.includes('ابری')) return Cloud;
+  // if (lowerName.includes('react') || lowerName.includes('front') || lowerName.includes('فرانت')) return Layout;
+  // if (lowerName.includes('back') || lowerName.includes('node') || lowerName.includes('بک')) return Server;
+  // if (lowerName.includes('devops') || lowerName.includes('linux') || lowerName.includes('دواپس')) return Terminal;
+  // if (lowerName.includes('web') || lowerName.includes('html')) return Globe;
+  // if (lowerName.includes('learn') || lowerName.includes('ai') || lowerName.includes('یادگیری')) return BrainCircuitIcon;
+
   return Zap;
 };
 
