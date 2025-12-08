@@ -74,14 +74,14 @@ const EN_SKILLS: Skill[] = [
   // آیتم ویژه برای دانلود رزومه
   // لینک را در اینجا قرار دهید. فعلا # است.
   { name: 'Download Resume (PDF)', link: '#', highlight: true },
-  { name: 'Data Science' },
-  { name: 'Python' },
-  { name: 'Machine Learning' },
-  { name: 'Big Data' },
-  { name: 'React / Frontend' },
-  { name: 'Backend Development' },
-  { name: 'DevOps' },
-  { name: 'Cloud Computing' },
+  { name: 'SQL' },
+  // { name: 'Python' },
+  // { name: 'Machine Learning' },
+  // { name: 'Big Data' },
+  // { name: 'React / Frontend' },
+  // { name: 'Backend Development' },
+  // { name: 'DevOps' },
+  // { name: 'Cloud Computing' },
   // { name: 'Java' },
 ];
 
@@ -89,14 +89,14 @@ const EN_SKILLS: Skill[] = [
 const FA_SKILLS: Skill[] = [
   // آیتم ویژه برای دانلود رزومه
   { name: 'دانلود رزومه (PDF)', link: '#', highlight: true },
-  { name: 'علم داده (Data Science)' },
-  { name: 'پایتون (Python)' },
-  { name: 'یادگیری ماشین (ML)' },
-  { name: 'کلان داده (Big Data)' },
-  { name: 'فرانت‌اند / React' },
-  { name: 'توسعه بک‌‌اند' },
-  { name: 'دواپس (DevOps)' },
-  { name: 'رایانش ابری' },
+  { name: 'اس کیو ال (SQL)' },
+  // { name: 'پایتون (Python)' },
+  // { name: 'یادگیری ماشین (ML)' },
+  // { name: 'کلان داده (Big Data)' },
+  // { name: 'فرانت‌اند / React' },
+  // { name: 'توسعه بک‌‌اند' },
+  // { name: 'دواپس (DevOps)' },
+  // { name: 'رایانش ابری' },
   // { name: 'جاوا' },
 ];
 
