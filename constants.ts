@@ -73,7 +73,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 const EN_SKILLS: Skill[] = [
   // آیتم ویژه برای دانلود رزومه
   // لینک را در اینجا قرار دهید. فعلا # است.
-  { name: 'Download Resume (PDF)', link: '#', highlight: true },
+  { name: 'Download Resume (PDF)', link: '/resume.pdf', highlight: true },
   { name: 'SQL' },
   // { name: 'Python' },
   // { name: 'Machine Learning' },
