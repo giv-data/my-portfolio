@@ -39,24 +39,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
     color: '#25D366'
   },
   {
-    id: 'twitter',
-    url: 'https://x.com/givdata',
-    icon: Twitter,
-    color: '#ffffff'
-  },
-  {
-    id: 'youtube',
-    url: 'https://www.youtube.com/@GivData',
-    icon: Youtube,
-    color: '#FF0000'
-  },
-  {
-    id: 'medium',
-    url: 'https://medium.com/@givdata',
-    icon: BookOpen,
-    color: '#FFC017'
-  },
-  {
     id: 'github',
     url: 'https://github.com/giv-data',
     icon: Github,
@@ -73,8 +55,25 @@ export const SOCIAL_LINKS: SocialLink[] = [
     url: 'mailto:ali.givshadi.mail@gmail.com',
     icon: Mail,
     color: '#EA4335'
+  },
+  {
+    id: 'medium',
+    url: 'https://medium.com/@givdata',
+    icon: BookOpen,
+    color: '#FFC017'
+  },
+  {
+    id: 'twitter',
+    url: 'https://x.com/givdata',
+    icon: Twitter,
+    color: '#ffffff'
+  },
+  {
+    id: 'youtube',
+    url: 'https://www.youtube.com/@GivData',
+    icon: Youtube,
+    color: '#FF0000'
   }
-
 
 ];
 
