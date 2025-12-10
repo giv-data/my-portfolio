@@ -88,13 +88,16 @@ I build systems that turn **raw data into real products**.
 </div>
 
 ---
-
 ## 🌐 Connect With Me
 
 <div align="center">
 
-<a href="https://t.me/givdata">
-  <img src="https://img.shields.io/badge/Telegram-GivData-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
+<a href="https://chat.whatsapp.com/El4AechHukBKA37szkdhiM">
+  <img src="https://img.shields.io/badge/WhatsApp%20Community-GivData-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+
+<a href="https://wa.me/989032372954">
+  <img src="https://img.shields.io/badge/WhatsApp%20Direct-Ali%20Givshadi-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
 </a>
 
 <a href="https://x.com/givdata">
@@ -124,6 +127,8 @@ I build systems that turn **raw data into real products**.
 <a href="https://www.youtube.com/@GivData">
   <img src="https://img.shields.io/badge/YouTube-GivData-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
 </a>
+
+</div>
 
 </div>
 
