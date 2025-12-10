@@ -59,9 +59,10 @@ const SocialGrid: React.FC<SocialGridProps> = ({ t, id }) => {
             </div>
             
             {/* نام شبکه اجتماعی (ترجمه شده) */}
-            <span className="font-bold text-lg text-gray-200 group-hover:text-white transition-colors duration-300 z-10">
-              {t.socialNames[link.id]}
+            <span className="font-bold text-lg text-gray-200 group-hover:text-white transition-colors duration-300 z-10 text-center whitespace-pre-line leading-tight">
+                {t.socialNames[link.id]}
             </span>
+
             
             {/* فلش کوچک گوشه کارت برای نشان دادن لینک خارجی */}
             <svg className="absolute top-3 right-3 w-4 h-4 opacity-0 group-hover:opacity-50 transition-all duration-300 rtl:right-auto rtl:left-3 rtl:-scale-x-100 z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">

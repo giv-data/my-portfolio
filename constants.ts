@@ -222,8 +222,8 @@ export const TRANSLATIONS: Record<'en' | 'fa', Translation> = {
       github: 'GitHub',
       linkedin: 'LinkedIn',
       gmail: 'Gmail',
-      whatsappcommunity: 'whatsapp\ncommunity',
-      whatsappdirect: 'whatsapp\ndirect'
+      whatsappcommunity: 'Whatsapp\nCommunity',
+      whatsappdirect: 'Whatsapp\nDirect'
     },
     copyright: '© All rights reserved to Ali Givshadi. Created in December 2025.',
     changeLang: 'FA',
