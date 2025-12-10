@@ -10,6 +10,7 @@ import {
   Youtube
 } from 'lucide-react';
 import { SocialLink, Skill, Translation } from './types';
+import { MessageCircle, Phone } from 'lucide-react';
 
 // =========================================================================================
 // راهنمای ویرایش کلی:
@@ -19,12 +20,12 @@ import { SocialLink, Skill, Translation } from './types';
 
 // --- لیست شبکه های اجتماعی ---
 export const SOCIAL_LINKS: SocialLink[] = [
-  {
-    id: 'telegram', 
-    url: 'https://t.me/givdata', 
-    icon: Send, 
-    color: '#229ED9' 
-  },
+  // {
+  //   id: 'telegram', 
+  //   url: 'https://t.me/givdata', 
+  //   icon: Send, 
+  //   color: '#229ED9' 
+  // },
   {
     id: 'twitter',
     url: 'https://x.com/givdata',
@@ -60,7 +61,20 @@ export const SOCIAL_LINKS: SocialLink[] = [
     url: 'mailto:ali.givshadi.mail@gmail.com',
     icon: Mail,
     color: '#EA4335'
+  },
+  {
+    id: 'whatsappcommunity',
+    url: 'https://chat.whatsapp.com/El4AechHukBKA37szkdhiM',
+    icon: MessageCircle,
+    color: '#25D366'
+  },
+  {
+    id: 'whatsappdirect',
+    url: 'https://wa.me/989032372954',
+    icon: Phone,
+    color: '#25D366'
   }
+
 ];
 
 // =========================================================================================
@@ -206,7 +220,9 @@ export const TRANSLATIONS: Record<'en' | 'fa', Translation> = {
       medium: 'Medium',
       github: 'GitHub',
       linkedin: 'LinkedIn',
-      gmail: 'Gmail'
+      gmail: 'Gmail',
+      whatsappcommunity: 'whatsappcommunity',
+      whatsappdirect: 'whatsapp-direct'
     },
     copyright: '© All rights reserved to Ali Givshadi. Created in December 2025.',
     changeLang: 'FA',
@@ -235,7 +251,9 @@ export const TRANSLATIONS: Record<'en' | 'fa', Translation> = {
       medium: 'مدیوم',
       github: 'گیت‌هاب',
       linkedin: 'لینکدین',
-      gmail: 'جیمیل'
+      gmail: 'جیمیل',
+      whatsappcommunity: 'واتساپ کامیونیتی',
+      whatsappdirect: 'واتساپ شخصی'
     },
     copyright: '© تمام حقوق متعلق به علی گیوشادی است. ایجاد شده در آذر ۱۴۰۴.',
     changeLang: 'EN',
