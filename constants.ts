@@ -27,6 +27,18 @@ export const SOCIAL_LINKS: SocialLink[] = [
   //   color: '#229ED9' 
   // },
   {
+    id: 'whatsappcommunity',
+    url: 'https://chat.whatsapp.com/El4AechHukBKA37szkdhiM',
+    icon: MessageCircle,
+    color: '#25D366'
+  },
+  {
+    id: 'whatsappdirect',
+    url: 'https://wa.me/989032372954',
+    icon: Phone,
+    color: '#25D366'
+  },
+  {
     id: 'twitter',
     url: 'https://x.com/givdata',
     icon: Twitter,
@@ -61,19 +73,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
     url: 'mailto:ali.givshadi.mail@gmail.com',
     icon: Mail,
     color: '#EA4335'
-  },
-  {
-    id: 'whatsappcommunity',
-    url: 'https://chat.whatsapp.com/El4AechHukBKA37szkdhiM',
-    icon: MessageCircle,
-    color: '#25D366'
-  },
-  {
-    id: 'whatsappdirect',
-    url: 'https://wa.me/989032372954',
-    icon: Phone,
-    color: '#25D366'
   }
+
 
 ];
 
@@ -221,8 +222,8 @@ export const TRANSLATIONS: Record<'en' | 'fa', Translation> = {
       github: 'GitHub',
       linkedin: 'LinkedIn',
       gmail: 'Gmail',
-      whatsappcommunity: 'whatsappcommunity',
-      whatsappdirect: 'whatsapp-direct'
+      whatsappcommunity: 'whatsapp\ncommunity',
+      whatsappdirect: 'whatsapp\ndirect'
     },
     copyright: '© All rights reserved to Ali Givshadi. Created in December 2025.',
     changeLang: 'FA',
@@ -252,8 +253,8 @@ export const TRANSLATIONS: Record<'en' | 'fa', Translation> = {
       github: 'گیت‌هاب',
       linkedin: 'لینکدین',
       gmail: 'جیمیل',
-      whatsappcommunity: 'واتساپ کامیونیتی',
-      whatsappdirect: 'واتساپ شخصی'
+      whatsappcommunity: 'کامیونیتی\nواتساپ',
+      whatsappdirect: 'واتساپ\nشخصی'
     },
     copyright: '© تمام حقوق متعلق به علی گیوشادی است. ایجاد شده در آذر ۱۴۰۴.',
     changeLang: 'EN',
