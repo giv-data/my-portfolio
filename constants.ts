@@ -26,12 +26,12 @@ export const SOCIAL_LINKS: SocialLink[] = [
   //   icon: Send, 
   //   color: '#229ED9' 
   // },
-  {
-    id: 'whatsappcommunity',
-    url: 'https://chat.whatsapp.com/El4AechHukBKA37szkdhiM',
-    icon: MessageCircle,
-    color: '#25D366'
-  },
+  // {
+  //   id: 'whatsappcommunity',
+  //   url: 'https://chat.whatsapp.com/El4AechHukBKA37szkdhiM',
+  //   icon: MessageCircle,
+  //   color: '#25D366'
+  // },
   {
     id: 'whatsappdirect',
     url: 'https://wa.me/989032372954',
@@ -62,18 +62,18 @@ export const SOCIAL_LINKS: SocialLink[] = [
     icon: BookOpen,
     color: '#FFC017'
   },
-  {
-    id: 'twitter',
-    url: 'https://x.com/givdata',
-    icon: Twitter,
-    color: '#ffffff'
-  },
-  {
-    id: 'youtube',
-    url: 'https://www.youtube.com/@GivData',
-    icon: Youtube,
-    color: '#FF0000'
-  }
+  // {
+  //   id: 'twitter',
+  //   url: 'https://x.com/givdata',
+  //   icon: Twitter,
+  //   color: '#ffffff'
+  // },
+  // {
+  //   id: 'youtube',
+  //   url: 'https://www.youtube.com/@GivData',
+  //   icon: Youtube,
+  //   color: '#FF0000'
+  // }
 
 ];
 
